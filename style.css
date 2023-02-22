@@ -45,6 +45,14 @@
       width: 230px;
   }
 
+  .donate-btn {
+    border: none;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+
   .carousel-caption {
     top: 25%;
   }
