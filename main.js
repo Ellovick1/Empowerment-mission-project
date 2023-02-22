@@ -30,4 +30,44 @@ function testScroll() {
     });
   }
 };
+  //
 
+
+  function myButton() {
+    document.getElementById("myText").value = "50";
+  }
+  function myButton2() {
+    document.getElementById("myText").value = "100";
+  }
+  function myButton3() {
+    document.getElementById("myText").value = "500";
+  }
+  function myButton4() {
+    document.getElementById("myText").value = "1200";
+  }
+
+
+
+  
+// ******************************//
+
+$(document).ready(function () {
+    $("#button1").click(function (event) {
+      event.preventDefault();
+      $("#button1").addClass('border-primary');
+      $("#button2").removeClass('border-primary');
+      $("#item1").show();
+      $("#item3").show();
+      $("#item2").hide();
+      $("#item4").hide();
+    });
+    $("#button2").click(function (event) {
+      event.preventDefault();
+      $("#button2").addClass('border-primary');
+      $("#button1").removeClass('border-primary');
+      $("#item2").show();
+      $("#item4").show();
+      $("#item1").hide();
+      $("#item3").hide();
+    });
+  });
