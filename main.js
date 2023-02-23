@@ -34,16 +34,16 @@ function testScroll() {
 
 
   function myButton() {
-    document.getElementById("myText").value = "50";
+    document.getElementById("amount").value = "50";
   }
   function myButton2() {
-    document.getElementById("myText").value = "100";
+    document.getElementById("amount").value = "100";
   }
   function myButton3() {
-    document.getElementById("myText").value = "500";
+    document.getElementById("amount").value = "500";
   }
   function myButton4() {
-    document.getElementById("myText").value = "1200";
+    document.getElementById("amount").value = "1200";
   }
 
 
